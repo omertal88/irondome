@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir -p bin
+g++ grid.cpp cannon.cpp entity.cpp plate.cpp game.cpp interceptor.cpp pitcher.cpp main.cpp -I$(pwd)/include -lpthread -o bin/iron_dome
